@@ -5,14 +5,16 @@ export default {
 </script>
 
 <template>
-  <div class="card-content">
-    <img src="../assets/img/image-qr-code.png" alt="QR code linking to Frontend Mentor" class="img-code">
-    <div class="text-content">
-      <h1>Improve your front-end skills by building projects</h1>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
-    </div>
-  </div>
+  <main>
+    <div class="card-content">
+      <img src="../assets/img/image-qr-code.png" alt="qr-code" class="img-code">
+      <div class="text-content">
+        <h2>Improve your front-end skills by building projects</h2>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
+      </div>
 
+    </div>
+  </main>
 </template>
 
 <style>
@@ -29,6 +31,7 @@ export default {
   width: 320px;
   height: 499px;
   margin: 0 auto;
+  margin-top: 65px;
 }
 
 .img-code {
@@ -43,13 +46,13 @@ export default {
   flex-direction: column;
   align-items: center;
   align-self: stretch;
-  padding: 0px var(--spacing-200, 16px);
+  padding: 0px 22px;
   gap: 16px;
   font-family: var(--font-family);
   text-align: center;
 }
 
-.text-content h1 {
+.text-content h2 {
   font-size: var(--font-size-title);
   font-weight: var(--font-weight-bold);
   color: var(--color-slate-900);
@@ -60,7 +63,6 @@ export default {
   font-size: var(--font-size-paragraphy);
   font-weight: var(--font-weight-regular);
   color: var(--color-slate-500);
-  padding: 0 16px;
   box-sizing: border-box;
 }
 
@@ -68,6 +70,8 @@ export default {
   .card-content {
     max-width: 300px;
     max-height: 460px;
+    align-items: center;
+    margin: 0;
   }
 
   .img-code {
@@ -75,7 +79,7 @@ export default {
     height: 288px;
   }
 
-  .text-content h1 {
+  .text-content h2 {
     font-size: 20px;
   }
 }
