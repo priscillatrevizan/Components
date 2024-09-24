@@ -45,7 +45,7 @@ npm run dev
 
 ## Hospedagem
 
-O projeto foi publicado online utilizando a plataforma **Vercel**. Você pode acessar a versão ao vivo [aqui](https://vercel.com).
+O projeto foi publicado online utilizando a plataforma **Vercel**. Você pode acessar a versão ao vivo [aqui]([https://vercel.com](https://qr-code-component-khaki-gamma.vercel.app/).
 
 ## Sobre o Curso Descodificadas 2024
 
