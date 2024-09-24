@@ -50,7 +50,7 @@ export default {
   text-align: center;
 }
 
-.text-content h2 {
+.text-content h1 {
   font-size: var(--font-size-title);
   font-weight: var(--font-weight-bold);
   color: var(--color-slate-900);
