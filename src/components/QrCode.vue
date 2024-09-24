@@ -5,16 +5,14 @@ export default {
 </script>
 
 <template>
-  <main>
-    <div class="card-content">
-      <img src="../assets/img/image-qr-code.png" alt="qr-code" class="img-code">
-      <div class="text-content">
-        <h2>Improve your front-end skills by building projects</h2>
-        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
-      </div>
-
+  <div class="card-content">
+    <img src="../assets/img/image-qr-code.png" alt="QR code linking to Frontend Mentor" class="img-code">
+    <div class="text-content">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
     </div>
-  </main>
+  </div>
+
 </template>
 
 <style>
@@ -51,7 +49,7 @@ export default {
   text-align: center;
 }
 
-.text-content h2 {
+.text-content h1 {
   font-size: var(--font-size-title);
   font-weight: var(--font-weight-bold);
   color: var(--color-slate-900);
@@ -70,7 +68,6 @@ export default {
   .card-content {
     max-width: 300px;
     max-height: 460px;
-    margin-top: 80px;
   }
 
   .img-code {
@@ -78,7 +75,7 @@ export default {
     height: 288px;
   }
 
-  .text-content h2 {
+  .text-content h1 {
     font-size: 20px;
   }
 }
